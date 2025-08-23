@@ -1,0 +1,59 @@
+# Build / artefactos
+bin/
+obj/
+**/bin/
+**/obj/
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+
+# Archivos de usuario/solución
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Logs
+*.log
+
+# Publicación/artefactos
+artifacts/
+[Aa]rtifacts/
+**/PublishProfiles/*
+
+# Certificados/keys locales
+**/*.pfx
+**/*.p12
+
+# Secretos / configs locales (ajústalo a tu gusto)
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# ⚠️ Normalmente SÍ se versiona launchSettings.json. 
+# Si no quieres puertos/máquina específicos, descomenta:
+# Properties/launchSettings.json
+
+# SQL Server archivos locales
+*.mdf
+*.ldf
+*.ndf
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Tests
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ReSharper / Rider
+_ReSharper*/
+*.[Rr]e[Ss]harper
