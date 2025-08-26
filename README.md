@@ -31,15 +31,11 @@ Este archivo define el **contexto de base de datos** usando **Entity Framework C
 
 ### ¿Qué es un `using`?
 En C#, normalmente al inicio de cada archivo agregamos `using` para importar espacios de nombres (namespaces).  
-Ejemplo:
-
-```csharp
-using System;
-using System.Linq;
-using Microsoft.AspNetCore.Builder;
 
 
-------------
+
+
+--------------
 
 
 
